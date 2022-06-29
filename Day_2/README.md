@@ -1,9 +1,9 @@
-#Task - 01
+# Task - 01
 
 Build a console application that allows users to select items from a
 shopping list and add them to shopping cart, and checkout in the end.
 
-##Resources
+## Resources
 Here's the link that will help you create a console app
 https://dart.dev/tutorials/server/get-started
 
@@ -12,7 +12,7 @@ https://www.geeksforgeeks.org/dart-standard-input-output/
 
 Make sure you use classes to represent items, cart etc...
 
-##Instructions
+## Instructions
 1) Fork the repo - https://github.com/swciitg/flutter_workshop_2022
 2) Clone your forked repo to local
 3) Navigate to "Day_2" folder and add a folder with your name

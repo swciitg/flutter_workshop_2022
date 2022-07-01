@@ -17,22 +17,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home: Container(
-          // height: MediaQuery.of(context).size.height,
-          // width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(
-
-          border: Border.all(width: 10,
-          color: Colors.indigoAccent),
-          borderRadius: BorderRadius.all(Radius.circular(50)),
-          // shape: BoxShape.circle,
+      home:
 
 
-
-        ),
-
-
-      child : Scaffold(
+       Scaffold(
 
         appBar: AppBar(
           title: new DropdownButton<String>(
@@ -487,7 +475,7 @@ class _MyAppState extends State<MyApp> {
           ],
         ),
       ),
-      ),
+
     );
   }
 }

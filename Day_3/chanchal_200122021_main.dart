@@ -62,7 +62,9 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.white,
           elevation: 0,
         ),
-        body: Column(
+        body:Container(
+        child: SingleChildScrollView(
+        child : Column(
           children: [
             Container(
               decoration: BoxDecoration(
@@ -469,10 +471,16 @@ class _MyAppState extends State<MyApp> {
                           )
                         ],
                       ))
+
+
+
                 ],
               ),
-            )
+            ),
+
           ],
+        ),
+    ),
         ),
       ),
 
